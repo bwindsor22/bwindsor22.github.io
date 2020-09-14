@@ -21,12 +21,13 @@ export function ArticleIndex() {
   const dispatch = useDispatch();
   const options = allTags.map((a) => { return {value: a, label: a} })
 
-  console.log('selected', selectedArticles, 'all', allArticles);
   return (
     <div>
       <Container>
         <Row>
-          <h3>Articles</h3>
+          <Col>
+            <h3>Articles</h3>
+          </Col>
         </Row>
         <Row>
           <Col xs={9}>
@@ -38,12 +39,6 @@ export function ArticleIndex() {
               options={options}
               isMulti
               onChange={(val) => dispatch(setSelection(val))}/>
-            <div>
-              {allTags.map((t) => <p>{t}</p>)}
-            </div>
-            <div>
-              {selectedTags && selectedTags.map((t) => <p>{t.label}</p>)}
-            </div>
           </Col>
         </Row>
       </Container>

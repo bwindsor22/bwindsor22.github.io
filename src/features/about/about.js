@@ -6,13 +6,11 @@ export const About = () => {
       <Col>
         <div>
           <h1> About </h1>
-          <p> Hello! I'm Brad Windsor! I like code and I like people. On this blog I talk about programming and try to explain things simply. </p>
+          <p> Hello! I'm Brad! I like code and I like people. <br />
+          On this blog I talk about programming, expecially the things I'm learning through my master's program. Opinions are my own. </p>
 
           <h4> Career </h4>
-          <p> I'm a research engineer at Goldman Sachs, working in natural language processing. In the past I've been a project manager and data engineer.</p>
-
-          <h4> Education </h4>
-          <p> I'm finishing a Masters of Computer Science part-time at NYU Courant. Before this I did a B.S. chemical engineering at UC Berkeley.</p>
+          <p> I work on natural language processing in finance. In the past I've been a project manager and data engineer. </p>
 
           <h4> Volunteer </h4>
           <p> I've taught CS with Microsoft <a href='https://www.microsoft.com/en-us/teals'>TEALS</a>,
@@ -23,7 +21,7 @@ export const About = () => {
           <p> Talk to me about glass blowing, marathons, pop music, or any <a href='https://a24films.com/films'>movie by A24</a>.</p>
 
           <h4> More About </h4>
-          <p> You can follow me on <a href="https://twitter.com/windsor_brad">twitter</a> or <a href="https://github.com/bwindsor22">github</a>. My email is on my github.</p>
+          <p> You can follow me on <a href="https://twitter.com/windsor_brad">twitter</a>, <a href='https://www.linkedin.com/in/brad-windsor-3ba33727/'>LinkedIn</a>, or <a href="https://github.com/bwindsor22">github</a>. My email is bwindsor22@gmail.com.</p>
         </div>
       </Col>
     </Container>

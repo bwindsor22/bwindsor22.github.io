@@ -15,17 +15,17 @@ export class Header extends React.PureComponent{
     return (<div>
       <Navbar>
         <NavbarGroup align={Alignment.LEFT}>
-            <NavbarHeading>Brad.Windsor</NavbarHeading>
-            <NavbarDivider />
             <Link to='/'>
               <Button className={Classes.MINIMAL} icon="home" text="Home" />
             </Link >
             <Link to='/articles'>
               <Button className={Classes.MINIMAL} icon="document" text="Articles" />
             </Link>
+            {/*
             <Link to='/game'>
               <Button className={Classes.MINIMAL} icon="taxi" text="Game" />
             </Link>
+            */}
             <Link to='/about'>
               <Button className={Classes.MINIMAL} icon="person" text="About" />
             </Link>

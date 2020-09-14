@@ -8,7 +8,7 @@ const allTags = () => {
 
 const colorMap = () => {
   const tags = allTags();
-  const colorList = ['#234f4c', '#365455', '#51735f', '#2c2c2c', '#e8e8e8'];
+  const colorList = ['#a28089', '#1d2d50', '#133b5c', '#1e5f74', '#8458B3'];
   return tags.reduce((acc, tag, index) => {
     acc[tag] = colorList[index];
     return acc;
